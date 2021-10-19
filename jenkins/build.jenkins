@@ -19,7 +19,7 @@ pipeline {
        }
     }
     
-    stage('ls') {
+    stage('ls2') {
                 steps {
          sh 'ls -la'
        }
