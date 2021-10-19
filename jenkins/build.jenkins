@@ -19,11 +19,7 @@ pipeline {
        }
     }
     
-    stage('ls2') {
-                steps {
-         sh 'ls -la'
-       }
-    }
+    
         stage('Building image') {
             steps{
                 script {
