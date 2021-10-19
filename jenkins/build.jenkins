@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Cloning Git') {
             steps {
-                git 'https://github.com/Romario11/redmine-demo-2.git'
+                sh 'git clone 'https://github.com/Romario11/redmine-demo-2.git''
             }
         }
         stage('ls') {
