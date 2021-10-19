@@ -49,7 +49,7 @@ RUN set -eux; \
 RUN set -eux; \
     pwd; \
     ls -la; \
-  git clone https://github.com/Romario11/redmine-demo-2.git; \
+  #git clone https://github.com/Romario11/redmine-demo-2.git; \
 #  wget -O redmine.tar.gz "https://www.redmine.org/releases/redmine-${REDMINE_VERSION}.tar.gz"; \
 #  echo "$REDMINE_DOWNLOAD_SHA256 *redmine.tar.gz" | sha256sum -c -; \
 #  tar -xf redmine.tar.gz --strip-components=1; \
