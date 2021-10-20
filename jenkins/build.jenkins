@@ -34,6 +34,11 @@ pipeline {
                 }
             }
         }
+        stage('Deploy to EKS') {
+            steps{
+                sh "kubectl set image deployment.apps/redmine-deploy redmine=$registry:$BUILD_NUMBER"
+            }
+        }
         stage('Remove Unused docker image') {
             steps{
                 sh "docker rmi $registry:$BUILD_NUMBER"
