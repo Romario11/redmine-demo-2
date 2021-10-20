@@ -34,7 +34,7 @@ pipeline {
                 }
             }
         }
-        stage('Deploy to EKS') {
+        stage('Deploy to prod EKS') {
             steps{
                 sh "kubectl set image deployment.apps/redmine-deploy redmine=$registry:$BUILD_NUMBER"
             }
