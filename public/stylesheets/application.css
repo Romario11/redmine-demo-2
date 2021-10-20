@@ -19,7 +19,7 @@ pre, code {font-family: Consolas, Menlo, "Liberation Mono", Courier, monospace;}
 div#wrapper, div#wrapper2, div#wrapper3 { min-height: inherit; }
 #wrapper {background: white;overflow: hidden;}
 #wrapper3 { display: flex; flex-direction: column; }
-
+/***** #3E5B76 *****/
 #top-menu {background: #3E5B76; color: #fff; height:1.8em; font-size: 0.8em; padding: 2px 10px 0px 12px;}
 #top-menu ul {margin: 0;  padding: 0;}
 #top-menu li {
@@ -33,8 +33,8 @@ div#wrapper, div#wrapper2, div#wrapper3 { min-height: inherit; }
 #top-menu #loggedas { float: right; margin-right: 0.5em; color: #fff; }
 
 #account {float:right;}
-
-#header {min-height:5.3em;margin:0;background-color:#628DB6;color:#f8f8f8; padding: 4px 16px 20px 16px; position:relative;}
+/***** #628DB6 *****/
+#header {min-height:5.3em;margin:0;background-color:red;color:#f8f8f8; padding: 4px 16px 20px 16px; position:relative;}
 #header a {color:#f8f8f8;}
 #header h1 { overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
 #header h1 .breadcrumbs { display:block; font-size: .5em; font-weight: normal; }
